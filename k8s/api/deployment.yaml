@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: israeldoamaral/pedelogo-catalogo-jenkins-argocd:teste
+        image: israeldoamaral/pedelogo-catalogo-jenkins-argocd:{{tag}}
         resources:
           limits:
             memory: "128Mi"
